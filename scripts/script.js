@@ -97,8 +97,8 @@ function addCard (imageValue, nameValue) {
 // Попапа формы добавления карточки
 function formSubmitCard(evt) {
   evt.preventDefault();
-  const image = document.querySelector('.popup__field_type_card_link');
-  const name = document.querySelector('.popup__field_type_card_name');
+  const image = document.querySelector('.popup__input_type_card_link');
+  const name = document.querySelector('.popup__input_type_card_name');
   addCard(image.value, name.value);
   image.value = '';
   name.value = '';
