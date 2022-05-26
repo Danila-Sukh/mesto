@@ -43,5 +43,3 @@
 16. Асинхронность
 
 17. Работа с API
-
-[Ссылка на сайт.](https://danila-sukh.github.io/mesto/)
